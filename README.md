@@ -16,7 +16,7 @@ Instructions:
   `<script type="text/javascript" src="bower_components/ng-xCharts/xcharts.min.js"></script>`
   `<script type="text/javascript" src="bower_components/ng-xCharts/ng-xCharts.js"></script>`
 
-4. Add ng-xCharts to your app
+4. Add ng-xCharts module to your angular app
 
 5. Take care that id is defined, data type and opts are available on scope
   
