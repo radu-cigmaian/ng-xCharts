@@ -1,4 +1,4 @@
 ng-xCharts
 ==========
 
-Directive allowing you to add xXharts to your app
+Directive allowing you to add xCharts to your app
