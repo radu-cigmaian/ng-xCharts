@@ -1,0 +1,13 @@
+{
+    "name": "ng-xCharts",
+    "version": "0.0.1",
+    "ignore": [
+        "README.md",
+        "bower.json",
+        "README.md",
+        "LICENSE"
+    ],
+    "dependencies": {
+        "d3": ">=3.4.3"
+    }
+}
