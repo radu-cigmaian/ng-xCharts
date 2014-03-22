@@ -1,7 +1,7 @@
 Angular xChart directive
 ==========
 
-ng-xChart is a directive that allows you to add xCharts to your app
+ng-xChart is a directive that allows you to add xCharts to your angular app
 
 Instructions:
 --------------------------
@@ -18,10 +18,6 @@ Instructions:
 
 4. Add ng-xCharts module to your angular app
 
-5. Take care that id is defined, data type and opts are available on scope
+5. Add data, type and opts that should be available in controller scope
   
   `<xchart id='myChart' style="height: 300px;" data="data" type="type" opts="opts"></xchart>`
-
-Note:
---------------------------
-The "id" attribute is mandatory!
