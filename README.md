@@ -5,7 +5,7 @@ ng-xChart is a directive that allows you to add xCharts to your angular app
 
 Instructions:
 --------------------------
-1. Install ng-xChart using bower
+1. Install ng-xCharts using bower
 
 2. Add xCharts style
 
