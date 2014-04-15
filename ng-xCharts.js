@@ -1,4 +1,3 @@
-
 angular.module('ng-xCharts', [])
     .directive('xchart', function () {
         var graphIdCount = 0;
@@ -14,7 +13,16 @@ angular.module('ng-xCharts', [])
                     elemId = 'graph-' + graphIdCount;
                     elem.attr('id', elemId);
                 }
-                new xChart(scope.$eval(attrs.type), scope.$eval(attrs.data), '#' + elemId, scope.$eval(attrs.opts));
+                
+                var chart = null;
+                
+                scope.$watch(attrs.data, function(v) {
+                    if (!chart) {
+                        chart = new xChart(scope.$eval(attrs.type), v, '#' + elemId, scope.$eval(attrs.opts));
+                    } else {
+                        chart.setData(v);
+                    }
+                }, true);
             }
         };
     });
