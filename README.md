@@ -21,3 +21,5 @@ Instructions:
 5. Add data, type and opts that should be available in controller scope
   
   `<xchart id='myChart' style="height: 300px;" data="data" type="type" opts="opts"></xchart>`
+
+Note: more documentation about the data format can be found at: http://tenxer.github.io/xcharts/
