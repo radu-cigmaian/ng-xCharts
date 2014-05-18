@@ -1,7 +1,7 @@
 Angular xCharts directive
 ==========
 
-ng-xCharts is a directive that allows you to add xCharts to your angular app
+ng-xCharts is a directive that allows you to add xCharts(http://tenxer.github.io/xcharts/) to your angular app
 
 Instructions:
 --------------------------
