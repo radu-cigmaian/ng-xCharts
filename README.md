@@ -15,9 +15,9 @@ Instructions:
   
 	`<script type="text/javascript" src="bower_components/ng-xCharts/xcharts.min.js"></script>`
 
-`<script type="text/javascript" src="bower_components/ng-xCharts/ng-xCharts.js"></script>`
+	`<script type="text/javascript" src="bower_components/ng-xCharts/ng-xCharts.js"></script>`
 
-`<script type="text/javascript" src="bower_components/d3/d3.min.js"></script>`
+	`<script type="text/javascript" src="bower_components/d3/d3.min.js"></script>`
 
 4. Add ng-xCharts module to your angular app
 
