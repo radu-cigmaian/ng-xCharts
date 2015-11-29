@@ -1,5 +1,10 @@
 {
     "name": "ng-xCharts",
+    "main": [
+        "xcharts.js"
+        "ng-xCharts.js",
+        "xcharts.css "
+],
     "version": "0.0.3",
     "ignore": [
         "README.md",
